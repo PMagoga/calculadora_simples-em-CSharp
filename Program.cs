@@ -28,9 +28,10 @@
                 }
             case 2:
                 {
+                    //solicita ao usuário o primeiro número para efetuar a operação
                     Console.WriteLine("Digite o primeiro número: ");
                     int numero1 = int.Parse(Console.ReadLine());
-
+                    //solicita ao usuário o segundo número para efetuar a operação
                     Console.WriteLine("Digite o segundo número: ");
                     int numero2 = int.Parse(Console.ReadLine());
                     //devolve o resultado da operação
@@ -39,9 +40,10 @@
                 }
             case 3:
                 {
+                    //solicita ao usuário o primeiro número para efetuar a operação
                     Console.WriteLine("Digite o primeiro número: ");
                     int numero1 = int.Parse(Console.ReadLine());
-
+                    //solicita ao usuário o segundo número para efetuar a operação
                     Console.WriteLine("Digite o segundo número: ");
                     int numero2 = int.Parse(Console.ReadLine());
                     //devolve o resultado da operação
@@ -50,9 +52,10 @@
                 }
             case 4:
                 {
+                    //solicita ao usuário o primeiro número para efetuar a operação
                     Console.WriteLine("Digite o primeiro número: ");
                     int numero1 = int.Parse(Console.ReadLine());
-
+                    //solicita ao usuário o segundo número para efetuar a operação
                     Console.WriteLine("Digite o segundo número: ");
                     int numero2 = int.Parse(Console.ReadLine());
                     //devolve o resultado da operação
@@ -61,7 +64,7 @@
                 }
             default:
                 {
-                    //caso o usuário na digite uma opção não válida (a saber: 1, 2, 3 ou 4)
+                    //caso o usuário na digite uma opção não válida (a saber, caso não digite: 1, 2, 3 ou 4)
                     Console.WriteLine("Digite uma opção Válida...");
                     break;
                 }
