@@ -11,7 +11,7 @@
         Console.WriteLine("Digite (4) para Divisão: ");
         //na variável operacao vai salvar o que o usuário vai digitar no console
         int operacao = int.Parse(Console.ReadLine());
-
+        //faz a verificação da operação escolhida pelo usuário
         switch (operacao)
         {
             case 1:
