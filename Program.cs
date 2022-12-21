@@ -9,7 +9,7 @@
         Console.WriteLine("Digite (2) para Subtração: ");
         Console.WriteLine("Digite (3) para Multiplicação: ");
         Console.WriteLine("Digite (4) para Divisão: ");
-
+        //na variável operacao vai salvar o que o usuário vai digitar no console
         int operacao = int.Parse(Console.ReadLine());
 
         switch (operacao)
